@@ -10,10 +10,8 @@ Texture2D:
   m_ImageContentsHash:
     serializedVersion: 2
     Hash: 3eb422a44b812e16b34078a6083bea48
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
   m_IsAlphaChannelOptional: 1
-  serializedVersion: 2
+  serializedVersion: 4
   m_Width: 1068
   m_Height: 615
   m_CompleteImageSize: 1970460
@@ -22,7 +20,8 @@ Texture2D:
   m_MipCount: 1
   m_IsReadable: 1
   m_IsPreProcessed: 0
-  m_IgnoreMasterTextureLimit: 0
+  m_IgnoreMipmapLimit: 0
+  m_MipmapLimitGroupName: 
   m_StreamingMipmaps: 0
   m_StreamingMipmapsPriority: 0
   m_VTOnly: 0
@@ -61,11 +60,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   templateScene: {fileID: 102900000, guid: 2cda990e2423bbf4892e6590ba056729, type: 3}
   templateName: Lit 2D (URP)
-  description: Contains an orthographic camera and a Global Light 2D. Works with
-    the 2D Renderer in Universal RP.
+  description: Contains an orthographic camera and a Global Light 2D. Works with the 2D Renderer in Universal RP.
   preview: {fileID: -3604256930052969394}
   dependencies:
-  - dependency: {fileID: 2800000, guid: b3ab972b21db85d48ade9657efdd4771, type: 3}
-    instantiationMode: 1
+  - dependency: {fileID: 6200000, guid: 2965e2fb9c2f2a140a6e3b8b1d21c2a9, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: f73dfe034c22cfc41bd7e8799020a5ac, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: e85c6e02fda4a004b84664f435ad4d73, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 5d4daff38e3d9174b873918abcf2c1d4, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 7400000, guid: 4b8e30a8006855a48af835f5975671be, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 9100000, guid: e3cabbdf2ffc5fb49822caf408a7bc7b, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 274d64617113287499ed1c4165d1d8f3, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 9100000, guid: 2024841b5b1ab4e418b71c5b8ece60a7, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 9100000, guid: 496c4a45ab945e748965ff862abad058, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 7400000, guid: 729bc93fe8f06554c97c2e3ee231dafd, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 7400000, guid: 9740d97b07a7a4848baffc6be5b85c04, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 7400000, guid: e32ca7b93ceefda488eee9bfcd47c65e, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 10f3cacccb0c4c547be76836eba20664, type: 3}
+    instantiationMode: 0
   templatePipeline: {fileID: 0}
+  badge: {fileID: 0}
   addToDefaults: 1
