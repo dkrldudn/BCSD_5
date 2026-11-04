@@ -63,22 +63,44 @@ MonoBehaviour:
   description: Contains an orthographic camera and a Global Light 2D. Works with the 2D Renderer in Universal RP.
   preview: {fileID: -3604256930052969394}
   dependencies:
+  - dependency: {fileID: 11400000, guid: 52ed717de4fe13945854e8156a18618e, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 11400000, guid: 0f04f0c73065f3d4fb76135a003bfebb, type: 2}
+    instantiationMode: 1
   - dependency: {fileID: 6200000, guid: 2965e2fb9c2f2a140a6e3b8b1d21c2a9, type: 2}
     instantiationMode: 0
+  - dependency: {fileID: 11400000, guid: 7fe5f53628a4cf340b70f638e649fa2e, type: 2}
+    instantiationMode: 1
   - dependency: {fileID: 2800000, guid: f73dfe034c22cfc41bd7e8799020a5ac, type: 3}
     instantiationMode: 0
+  - dependency: {fileID: 11400000, guid: 3f7fb9c6acf55ff4c9bda05e4c508d00, type: 2}
+    instantiationMode: 1
   - dependency: {fileID: 2800000, guid: e85c6e02fda4a004b84664f435ad4d73, type: 3}
-    instantiationMode: 0
-  - dependency: {fileID: 2800000, guid: 5d4daff38e3d9174b873918abcf2c1d4, type: 3}
     instantiationMode: 0
   - dependency: {fileID: 7400000, guid: 4b8e30a8006855a48af835f5975671be, type: 2}
     instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 5d4daff38e3d9174b873918abcf2c1d4, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 11400000, guid: bb82e495e514c284886e6a54ac12b333, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 11400000, guid: cf1fdb921d22b3249b35198dc6c7a3b5, type: 2}
+    instantiationMode: 1
   - dependency: {fileID: 9100000, guid: e3cabbdf2ffc5fb49822caf408a7bc7b, type: 2}
     instantiationMode: 0
   - dependency: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     instantiationMode: 0
+  - dependency: {fileID: 11400000, guid: 6e17398bdefc55647801dafcc318f12a, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 7400000, guid: f4c4f25b5ebb58443b6afba64f0764cb, type: 2}
+    instantiationMode: 0
   - dependency: {fileID: 2800000, guid: 274d64617113287499ed1c4165d1d8f3, type: 3}
     instantiationMode: 0
+  - dependency: {fileID: 11400000, guid: a9c32b2e94aae99499001784289afa7d, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 11400000, guid: 3102de5d615aac34abd123d49a15abc4, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 11400000, guid: e1df2a323df404a42a348ac0f9bd2f51, type: 2}
+    instantiationMode: 1
   - dependency: {fileID: 7400000, guid: dacb0669de60b294ba202b25bba62822, type: 2}
     instantiationMode: 0
   - dependency: {fileID: 9100000, guid: 2024841b5b1ab4e418b71c5b8ece60a7, type: 2}

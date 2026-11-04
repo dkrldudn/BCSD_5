@@ -62,13 +62,20 @@ public class Player : MonoBehaviour
         }
 
         //landing platform
-        if(rigid.linearVelocity.y < 0)
+        if (rigid.linearVelocity.y <= 0)
         {
-            Debug.DrawRay(rigid.position, Vector3.down, new Color(0, 1, 0));
-            RaycastHit2D rayHit = Physics2D.Raycast(rigid.position, Vector3.down, 1, LayerMask.GetMask("Platform"));
-            if(rayHit.collider != null)
+            Debug.DrawRay(rigid.position, Vector2.down * 1.2f, Color.green);
+
+            RaycastHit2D rayHit = Physics2D.Raycast(
+                rigid.position,
+                Vector2.down,
+                1.2f,
+                LayerMask.GetMask("Platform")
+            );
+
+            if (rayHit.collider != null)
             {
-                if(rayHit.distance < 0.5f)
+                if (rayHit.distance < 0.7f)
                 {
                     anim.SetBool("isJumping", false);
                 }
